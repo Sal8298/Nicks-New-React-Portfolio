@@ -19,7 +19,7 @@ export default function Portfolio() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-      <p>Repo Link</p>
+      <p className="bg-blue-700 min-h-screen">Repo Link</p>
       <p>Download Here</p>
     </div>
   );

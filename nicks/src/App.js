@@ -6,7 +6,7 @@ import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
-    <div className="App bg-blue-700">
+    <div className="App">
         {/* <Header/> */}
 <PortfolioContainer/>
     </div>
