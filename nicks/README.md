@@ -39,6 +39,8 @@ THEN I see titled images of six of the developer’s applications with links to 
 WHEN I am presented with the Contact section
 THEN I see a contact form with fields for a name, an email address, and a message
 
+
+
 WHEN I move my cursor out of one of the form fields without entering text
 THEN I receive a notification that this field is required
 
