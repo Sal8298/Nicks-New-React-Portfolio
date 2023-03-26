@@ -102,7 +102,7 @@ const NavTabs = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-blue-600'>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='https://www.linkedin.com/in/nicholas-mamberger-4b7172133/'
+                href='https://my.indeed.com/p/nicholasm-zrmlq6u'
               >
                 Linkedin <FaLinkedinIn size={30} />
               </a>

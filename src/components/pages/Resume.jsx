@@ -65,7 +65,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <p className='my-3.5'>Personal Resume</p>
-                    <a href='' download="https://my.indeed.com/p/nicholasm-zrmlq6u"></a><button class="rounded-full ...">Download</button>
+                    <a href='https://my.indeed.com/p/nicholasm-zrmlq6u' download="https://my.indeed.com/p/nicholasm-zrmlq6u">Download</a><button className="rounded-full ..."></button>
               </div>
           </div>
       </div>
