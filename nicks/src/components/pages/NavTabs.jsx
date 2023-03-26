@@ -61,7 +61,7 @@ const NavTabs = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 bottom-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -95,43 +95,53 @@ const NavTabs = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-               Email <HiOutlineMail size={30} /> 
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='./'
-            >
-               Resume <BsFillPersonLinesFill size={30} /> 
-            </a>
-          </li>
-        </ul>
-      </div>
+        {/* Social icons */}
+      <footer>
+        <div className='hidden lg:flex fixed flex-col bottom-[35%] bottom-0'>
+          <ul>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-blue-600'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://www.linkedin.com/in/nicholas-mamberger-4b7172133/'
+              >
+                Linkedin <FaLinkedinIn size={30} />
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-[#333333]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://github.com/NickHM05'
+              >
+                Github <FaGithub size={30} />
+              </a>
+            </li>
+            {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://getform.io/f/84daa07e-1c8c-4197-9772-d31122915631/'
+              >
+                Email <HiOutlineMail size={30} />
+              </a>
+            </li> */}
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-[#d41b28]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://my.indeed.com/p/nicholasm-zrmlq6u'
+              >
+                Resume <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-[#1428bb]'>
+              <a
+                className='flex justify-between items-center w-full text-gray-300'
+                href='https://www.facebook.com/profile.php?id=100006164629138'
+              >
+                Facebook <FaFacebook size={30} />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 };

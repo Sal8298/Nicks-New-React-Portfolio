@@ -23,7 +23,7 @@ const About = () => {
           
         </div>
 
-          <p className='font-railway mt-1'>I am passionate about building excellent software that improves
+          <p className='font-railway mt-1 py-4 max-w-[700px] text-2xl'>I am passionate about building excellent software that improves
             the lives of those around me. I specialize in creating software
             for clients ranging from individuals and small-businesses all the
             way to large enterprise corporations. What would you do if you had
