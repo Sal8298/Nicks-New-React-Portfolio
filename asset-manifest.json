@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/Nicks-New-React-Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Nicks-New-React-Portfolio/static/js/main.649e43a5.js",
+    "main.css": "/Nicks-New-React-Portfolio/static/css/main.ea843097.css",
+    "main.js": "/Nicks-New-React-Portfolio/static/js/main.b9814859.js",
     "static/js/787.5e29a38b.chunk.js": "/Nicks-New-React-Portfolio/static/js/787.5e29a38b.chunk.js",
-    "static/media/logo.svg": "/Nicks-New-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mysql2.png": "/Nicks-New-React-Portfolio/static/media/mysql2.7ea5827a0bf278096c51.png",
+    "static/media/avatar.png": "/Nicks-New-React-Portfolio/static/media/avatar.fb7d8189fb6e8514b7b1.png",
+    "static/media/sals.png": "/Nicks-New-React-Portfolio/static/media/sals.a894ac5689ab1fd8c43f.png",
+    "static/media/oop.png": "/Nicks-New-React-Portfolio/static/media/oop.c128cb826f2fc05cee6a.png",
+    "static/media/Note.png": "/Nicks-New-React-Portfolio/static/media/Note.28f33ba6ae6904d59dc9.png",
+    "static/media/blog.png": "/Nicks-New-React-Portfolio/static/media/blog.7c2e7c53c72a3aa0804e.png",
+    "static/media/jate.png": "/Nicks-New-React-Portfolio/static/media/jate.458b820f50a9e63799f1.png",
+    "static/media/MySQL.png": "/Nicks-New-React-Portfolio/static/media/MySQL.6e42b2a035b28f240021.png",
+    "static/media/react.png": "/Nicks-New-React-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/Nicks-New-React-Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/Nicks-New-React-Portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/Nicks-New-React-Portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/bootstrapimg.png": "/Nicks-New-React-Portfolio/static/media/bootstrapimg.7c46e55ee36438f2b8d6.png",
+    "static/media/html.png": "/Nicks-New-React-Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Nicks-New-React-Portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/Nicks-New-React-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/myLogo.jpg": "/Nicks-New-React-Portfolio/static/media/myLogo.7e61500d825e4602bf73.jpg",
+    "static/media/javascript.png": "/Nicks-New-React-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Nicks-New-React-Portfolio/index.html",
-    "main.073c9b0a.css.map": "/Nicks-New-React-Portfolio/static/css/main.073c9b0a.css.map",
-    "main.649e43a5.js.map": "/Nicks-New-React-Portfolio/static/js/main.649e43a5.js.map",
+    "main.ea843097.css.map": "/Nicks-New-React-Portfolio/static/css/main.ea843097.css.map",
+    "main.b9814859.js.map": "/Nicks-New-React-Portfolio/static/js/main.b9814859.js.map",
     "787.5e29a38b.chunk.js.map": "/Nicks-New-React-Portfolio/static/js/787.5e29a38b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.649e43a5.js"
+    "static/css/main.ea843097.css",
+    "static/js/main.b9814859.js"
   ]
 }
