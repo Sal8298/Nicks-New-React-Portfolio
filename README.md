@@ -34,7 +34,8 @@ You can email the author of the portfolio, check out his work, his resume, and h
 Krister Myrlonn (https://github.com/kristermyr?tab=repositories) Dylan Quaale (https://github.com/DylanQuaale) Matthew Calimbas (no github i know of) https://www.youtube.com/watch?v=2kg0z1qNrkw&t=4190s Code commerce tutorial on building a react portfolio with tailwind(was really helpful for getting used to using tailwind for the first time with react). 
 
 ## Tests
-N/A
+npm install -g serve
+serve -s build
 
 ## Questions
 [Link to my Github Profile]https://github.com/NickHM05
