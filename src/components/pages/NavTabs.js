@@ -25,29 +25,39 @@ const NavTabs = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+        <button class="font-bold bg-red-700 hover:bg-red-600 active:bg-red-500 focus:outline-none focus:ring focus:ring-red-300 ...">
+          <Link to='home' smooth={true} duration={500} className= 'text-font-railway'>
             Home/A little about myself
           </Link>
+          </button>
         </li>
         <li>
+          <button class="font-bold bg-blue-700 hover:bg-blue-600 active:bg-blue-500 focus:outline-none focus:ring focus:ring-violet-300 ...">
           <Link to='about' smooth={true} duration={500}>
             More About Me
           </Link>
+          </button>
         </li>
         <li>
+          <button class="font-bold bg-green-700 hover:bg-green-600 active:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 ...">
           <Link to='skills' smooth={true} duration={500}>
             Resume/Skills
           </Link>
+          </button>
         </li>
         <li>
+        <button class="font-bold bg-orange-700 hover:bg-orange-600 active:bg-orange-500 focus:outline-none focus:ring focus:ring-orange-300 ...">
           <Link to='work' smooth={true} duration={500}>
             Portfolio
           </Link>
+          </button>
         </li>
         <li>
+          <button class="font-bold bg-gray-700 hover:bg-violet-600 active:bg-violet-500 focus:outline-none focus:ring focus:ring-violet-600 ...">
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
+          </button>
         </li>
       </ul>
 

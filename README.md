@@ -36,6 +36,8 @@ Krister Myrlonn (https://github.com/kristermyr?tab=repositories) Dylan Quaale (h
 ## Tests
 npm install -g serve
 serve -s build
+npx create-react-app my-app 
+above saves and reloads to github website. localhost works instantly not github. 
 
 ## Questions
 [Link to my Github Profile]https://github.com/NickHM05
