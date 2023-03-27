@@ -33,6 +33,15 @@ You can email the author of the portfolio, check out his work, his resume, and h
 ## Credits
 Krister Myrlonn (https://github.com/kristermyr?tab=repositories) Dylan Quaale (https://github.com/DylanQuaale) Matthew Calimbas (no github i know of) https://www.youtube.com/watch?v=2kg0z1qNrkw&t=4190s Code commerce tutorial on building a react portfolio with tailwind(was really helpful for getting used to using tailwind for the first time with react). 
 
+Doucumentation:
+https://tailwindcss.com/docs/hover-focus-and-other-states?email=#hover-focus-and-active
+
+https://tailwindcss.com/docs/guides/create-react-app
+
+https://tailwindcss.com/
+
+https://react-bootstrap.github.io/
+
 ## Tests
 npm install -g serve
 serve -s build

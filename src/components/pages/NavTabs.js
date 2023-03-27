@@ -22,7 +22,8 @@ const NavTabs = () => {
         <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
       </div>
 
-      {/* menu */}
+      {/* menu 
+      also the list items are set with buttons that way they can have a change when selected. The change is similar enough to being highlighted and goes above and beyond that*/}
       <ul className='hidden md:flex'>
         <li>
         <button class="font-bold bg-red-700 hover:bg-red-600 active:bg-red-500 focus:outline-none focus:ring focus:ring-red-300 ...">
