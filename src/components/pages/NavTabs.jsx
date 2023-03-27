@@ -96,7 +96,7 @@ const NavTabs = () => {
         </li>
       </ul>
 
-{/* FOOTER Section */}
+{/* was going to be the FOOTER Section */}
         {/* Social icons */}
       <footer>
         <div className='lg:flex fixed flex-col bottom-[35%] bottom-0'>
@@ -105,7 +105,7 @@ const NavTabs = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-blue-600'>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='https://my.indeed.com/p/nicholasm-zrmlq6u'
+                href='https://www.linkedin.com/in/nicholas-mamberger-4b7172133/'
               >
                 Linkedin <FaLinkedinIn size={30} />
               </a>

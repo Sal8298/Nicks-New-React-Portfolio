@@ -17,17 +17,13 @@ const About = () => {
         {/* Avatar is located here.  */}
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right ml-28 text-4xl font-bold font-railway'>
-            <p>Hi. I'm Nicholas Mamberger, nice to meet you. Please take a look around.</p>
+            <p>Hi. I'm Nicholas Mamberger, nice to meet you. Please take a look around my website.</p>
           </div>
           <div></div>
           <img src={avatar} className='w-full flex-1 ml-28 justify-center grid-cols-2 gap-8 px-4' alt='Nicholas Mamberger avatar'></img>
         </div>
 
-        <p className='font-railway mt-1 py-4 max-w-[700px] text-2xl'>I am passionate about building great software that improves
-          the lives of those around me. I specialize in creating software
-          for clients ranging from individuals and small-businesses all the
-          way to large enterprise corporations. What would you do if you had
-          such an experienced web devloper available at your fingertips?
+        <p className='font-railway mt-1 py-4 max-w-[700px] text-2xl'>I have a strong passion for developing high-quality software that enhances the lives of people around me. My expertise lies in crafting software solutions for a diverse range of clients, including individuals, small businesses, and large enterprises. Imagine having access to a skilled web developer of this caliber - what possibilities could this bring to your project?
         </p>
 
       </div>
