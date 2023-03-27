@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nicks-New-React-Portfolio/static/css/main.837aabeb.css",
-    "main.js": "/Nicks-New-React-Portfolio/static/js/main.d064d472.js",
+    "main.css": "/Nicks-New-React-Portfolio/static/css/main.02d0f75f.css",
+    "main.js": "/Nicks-New-React-Portfolio/static/js/main.0169ee6d.js",
     "static/js/787.5e29a38b.chunk.js": "/Nicks-New-React-Portfolio/static/js/787.5e29a38b.chunk.js",
     "static/media/mysql2.png": "/Nicks-New-React-Portfolio/static/media/mysql2.7ea5827a0bf278096c51.png",
     "static/media/avatar.png": "/Nicks-New-React-Portfolio/static/media/avatar.fb7d8189fb6e8514b7b1.png",
@@ -22,12 +22,12 @@
     "static/media/myLogo.jpg": "/Nicks-New-React-Portfolio/static/media/myLogo.7e61500d825e4602bf73.jpg",
     "static/media/javascript.png": "/Nicks-New-React-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Nicks-New-React-Portfolio/index.html",
-    "main.837aabeb.css.map": "/Nicks-New-React-Portfolio/static/css/main.837aabeb.css.map",
-    "main.d064d472.js.map": "/Nicks-New-React-Portfolio/static/js/main.d064d472.js.map",
+    "main.02d0f75f.css.map": "/Nicks-New-React-Portfolio/static/css/main.02d0f75f.css.map",
+    "main.0169ee6d.js.map": "/Nicks-New-React-Portfolio/static/js/main.0169ee6d.js.map",
     "787.5e29a38b.chunk.js.map": "/Nicks-New-React-Portfolio/static/js/787.5e29a38b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.837aabeb.css",
-    "static/js/main.d064d472.js"
+    "static/css/main.02d0f75f.css",
+    "static/js/main.0169ee6d.js"
   ]
 }
