@@ -36,7 +36,7 @@ const NavTabs = () => {
         </li>
         <li>
           <Link to='skills' smooth={true} duration={500}>
-            Resume
+            Resume/Skills
           </Link>
         </li>
         <li>
@@ -52,7 +52,8 @@ const NavTabs = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick}>
+      {/* <div onClick={handleClick} className='md:hidden z-10'> */}
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -66,25 +67,25 @@ const NavTabs = () => {
       >
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
+            Home/ A little about myself
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
+            More About Me
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
+            Resume/Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Portfolio/Work
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -95,9 +96,11 @@ const NavTabs = () => {
         </li>
       </ul>
 
+{/* FOOTER Section */}
         {/* Social icons */}
       <footer>
-        <div className='hidden lg:flex fixed flex-col bottom-[35%] bottom-0'>
+        <div className='lg:flex fixed flex-col bottom-[35%] bottom-0'>
+          {/* hidden can be added */}
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-10px] hover:ml-[-125px] duration-300 bg-blue-600'>
               <a
