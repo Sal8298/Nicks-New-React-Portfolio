@@ -5,9 +5,9 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full bg-[#0a192f]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full pb-80'>
+      <div className='max-w-[1000px] py-20 mx-auto px-8 flex flex-col justify-center'>
         <p className='text-red-700'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Nicholas Mamberger

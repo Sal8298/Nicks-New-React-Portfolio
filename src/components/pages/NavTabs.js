@@ -26,45 +26,45 @@ const NavTabs = () => {
       also the list items are set with buttons that way they can have a change when selected. The change is similar enough to being highlighted and goes above and beyond that*/}
       <ul className='hidden md:flex'>
         <li>
-        <button class="font-bold bg-red-700 hover:bg-red-600 active:bg-red-500 focus:outline-none focus:ring focus:ring-red-300 ...">
-          <Link to='home' smooth={true} duration={500} className= 'text-font-railway'>
-            Home/A little about myself
-          </Link>
+          <button className="font-bold bg-red-700 hover:bg-red-600 active:bg-red-500 focus:outline-none focus:ring focus:ring-red-300 ...">
+            <Link to='home' smooth={true} duration={500}>
+              Home/A little about myself
+            </Link>
           </button>
         </li>
         <li>
-          <button class="font-bold bg-blue-700 hover:bg-blue-600 active:bg-blue-500 focus:outline-none focus:ring focus:ring-violet-300 ...">
-          <Link to='about' smooth={true} duration={500}>
-            More About Me
-          </Link>
+          <button className="font-bold bg-blue-700 hover:bg-blue-600 active:bg-blue-500 focus:outline-none focus:ring focus:ring-violet-300 ...">
+            <Link to='about' smooth={true} duration={500}>
+              More About Me
+            </Link>
           </button>
         </li>
         <li>
-          <button class="font-bold bg-green-700 hover:bg-green-600 active:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 ...">
-          <Link to='skills' smooth={true} duration={500}>
-            Resume/Skills
-          </Link>
+          <button className="font-bold bg-green-700 hover:bg-green-600 active:bg-green-500 focus:outline-none focus:ring focus:ring-green-300 ...">
+            <Link to='skills' smooth={true} duration={500}>
+              Resume/Skills
+            </Link>
           </button>
         </li>
         <li>
-        <button class="font-bold bg-orange-700 hover:bg-orange-600 active:bg-orange-500 focus:outline-none focus:ring focus:ring-orange-300 ...">
-          <Link to='work' smooth={true} duration={500}>
-            Portfolio
-          </Link>
+          <button className="font-bold bg-orange-700 hover:bg-orange-600 active:bg-orange-500 focus:outline-none focus:ring focus:ring-orange-300 ...">
+            <Link to='work' smooth={true} duration={500}>
+              Portfolio
+            </Link>
           </button>
         </li>
         <li>
-          <button class="font-bold bg-gray-700 hover:bg-violet-600 active:bg-violet-500 focus:outline-none focus:ring focus:ring-violet-600 ...">
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+          <button className="font-bold bg-gray-700 hover:bg-violet-600 active:bg-violet-500 focus:outline-none focus:ring focus:ring-violet-600 ...">
+            <Link to='contact' smooth={true} duration={500}>
+              Contact
+            </Link>
           </button>
         </li>
       </ul>
 
       {/* Hamburger */}
       <div onClick={handleClick}>
-      {/* <div onClick={handleClick} className='md:hidden z-10'> */}
+        {/* <div onClick={handleClick} className='md:hidden z-10'> */}
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -73,33 +73,33 @@ const NavTabs = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 bottom-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 bottom-0 w-full bg-[#0a192f] flex flex-col justify-center items-center text-xs'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='pt-60 text-xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home/ A little about myself
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-1 text-xl'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             More About Me
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-1 text-xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Resume/Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-1 text-xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Portfolio/Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-1 text-xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
@@ -107,8 +107,8 @@ const NavTabs = () => {
         </li>
       </ul>
 
-{/* was going to be the FOOTER Section */}
-        {/* Social icons */}
+      {/* was going to be the FOOTER Section */}
+      {/* Social icons */}
       <footer>
         <div className='lg:flex fixed flex-col bottom-[35%] bottom-0'>
           {/* hidden can be added */}

@@ -33,7 +33,7 @@ const Contact = () => {
 
   }
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full bg-[#0a192f] flex justify-center items-center p-4'>
       <form method='POST'  action="https://getform.io/f/84daa07e-1c8c-4197-9772-d31122915631" className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-red-700 text-gray-300'>Contact</p>
